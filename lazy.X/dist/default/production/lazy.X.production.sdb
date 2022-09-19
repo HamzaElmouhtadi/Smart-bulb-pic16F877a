@@ -1,0 +1,94 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"17 C:\Users\Hamza\Desktop\Programming\PIC16F877\lazy.X\newfile.c
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+"48
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+"56
+[v _UART_get_char UART_get_char `(uc  1 e 1 0 ]
+"71
+[v _UART_send_string UART_send_string `(v  1 e 1 0 ]
+"79
+[v _main main `(v  1 e 1 0 ]
+"959 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f876a.h
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"966
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1855
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2191
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2290
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2380
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"2437
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2440
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"2500
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2518
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"2536
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2566
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2665
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"2668
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1075 ]
+"2701
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2704
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"2713
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"2722
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"2728
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"79 C:\Users\Hamza\Desktop\Programming\PIC16F877\lazy.X\newfile.c
+[v _main main `(v  1 e 1 0 ]
+{
+"81
+[v main@get_value get_value `i  1 a 2 5 ]
+"126
+} 0
+"71
+[v _UART_send_string UART_send_string `(v  1 e 1 0 ]
+{
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 wreg ]
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 wreg ]
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 2 ]
+"75
+} 0
+"48
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+{
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 0 ]
+"52
+} 0
+"56
+[v _UART_get_char UART_get_char `(uc  1 e 1 0 ]
+{
+"67
+} 0
+"17
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+{
+"44
+} 0
