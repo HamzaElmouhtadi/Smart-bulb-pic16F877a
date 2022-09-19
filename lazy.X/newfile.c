@@ -80,14 +80,12 @@ void main(void)
 {
     int get_value;
     TRISB3 = 0;
-    TRISC2 = 1 ;
     Initialize_UART();    //Initialize UART module                    
     
     UART_send_string("UART Module Initialized and active");    // Introductory Text
     
     while(1) //Infinite loop
     {
-        int IR = RC2;
       get_value = UART_get_char(); 
         if (get_value == '1') //If the user sends "1"
         {
@@ -102,11 +100,6 @@ void main(void)
             //Send notification to the computer      
            //ASCII value 10 is used for carriage return (to print in new line)
         }
-      if (IR ==1)
-          {
-          RB3 = !RB3;
-          __delay_ms(100);
-          }
       }
       
     }
